@@ -22,18 +22,18 @@ p {
 
     font-weight: normal;
 }
-.classic {
+.hero {
     background-color: var(--secondary-color);
     text-align: center;
     padding: 160px 20px;
 }
-.classic p {
+.hero p {
 font-size: 36px;
 font-weight: bold;
 margin: 0;
 color: #272142;
 }
-.classic h2 {
+.hero h2 {
     font-family: var(--heading-font-family);
     font-weight: normal;
     font-size: 24px;
