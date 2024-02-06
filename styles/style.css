@@ -21,7 +21,7 @@ h1 {
 h2 {
     font-size: 64px;
 }
-h4 {
+h3 {
     font-size: 48px;
 }
 p {
@@ -32,7 +32,7 @@ line-height: 30px;
 .hero {
     background-color: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 .hero p {
 font-size: 36px;
@@ -48,7 +48,7 @@ color: #272142;
 }
 
 .content-container {
-padding: 160px 20px;
+padding: 60px 20px;
 }
 
 
@@ -73,6 +73,9 @@ line-height: 1.5;
 .content {
     margin: 30px;
 }
+.button {
+ background-color: var(--branding-color);   
+}
 
  .btn-branding {
     background: var(--branding-color);
@@ -96,8 +99,8 @@ line-height: 1.5;
     padding: 30px 60px;
 }
 .logo {
-    max-height: 130px;
-    margin-left: 50px;
+    max-height: 110px;
+    margin-left: 30px;
 }
 nav {
     padding: 20px 0;
@@ -112,17 +115,18 @@ nav li {
    line-height: 42px;
    margin-left: 15px;
    margin-right: 4px;
-   
-}
+   }
+
 nav a {
   text-decoration: none; 
   color: #272142;
 transition: all 100ms ease-in-out;
 }
 
-    nav a:hover, nav li.active a {
+ nav a:hover, nav li.active a {
         color: var(--branding-color);
     }
+
 footer .contact-box {
  background-color: var(--secondary-color); 
  padding: 30px 120px;  
@@ -169,13 +173,10 @@ footer .social-links a:hover {
     h2 {
         font-size: 44px;
     }
-    h4 {
+    h3 {
         font-size: 26px;
     }
    
-    .hero {
-        padding: 80px 20px;
-    }
     .project-description {
         padding: 0;
         text-align: center;
