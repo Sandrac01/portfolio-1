@@ -100,10 +100,10 @@ line-height: 1.5;
 }
 .logo {
     max-height: 110px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 nav {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 nav ul {
     padding: 0; 
@@ -113,8 +113,8 @@ nav li {
     display: inline;
     list-style: none;
    line-height: 42px;
-   margin-left: 15px;
-   margin-right: 4px;
+   margin-left: 10px;
+   
    }
 
 nav a {
@@ -184,6 +184,9 @@ footer .social-links a:hover {
     .content {
     text-align: center;
     padding: 0;
+}
+footer .email-link {
+    font-size: 20px;
 }
 
 }
